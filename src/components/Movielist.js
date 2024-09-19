@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import ReactStars from 'react-stars'
 import Editmovie from './Editmovie';
+import { Link } from 'react-router-dom';
 
 function Movielist(props) {
     console.log(props);
@@ -20,6 +21,7 @@ const remove=(title)=>{
                 {
 
                     props.movies.filter(el => el.title.includes(search)).map(el =>
+                        <Link to={"/details/"+el.id}>
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={el.poster} style={{ height: "400px", }} />
                             <Card.Body>
@@ -44,8 +46,9 @@ const remove=(title)=>{
                                 
                             </Card.Body>
                         </Card>
+                        </Link>
                     )
-                }
+                } 
             </div>
         </div>
     )

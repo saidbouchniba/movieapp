@@ -5,7 +5,8 @@ const Movies = [
         rating: 5,
         actors: ["Mark Wahlberg", "Halle Berry"],
         describe: "Mike McKenna is a construction worker living in New Jersey . One night in a bar, he meets Roxanne Hall, his high school girlfriend. She will introduce him to the world of spies and make him work for the government.",
-        trailer: "https://youtu.be/vea9SdnRMyg?si=vYFnbLoW-sXG9uCs"
+        trailer: "https://www.youtube.com/embed/vea9SdnRMyg?si=uHzOZ1RJFxTtRPkj",
+        id:1
     },
     {
         title: "rebel ridge",
@@ -13,7 +14,8 @@ const Movies = [
         rating: 4.5,
         actors: ["Aaron Pierre", "AnnaSophia Robb"],
         describe: "Terry Richmond, un ancien Marine, se rend dans la ville de Shelby Springs pour y déposer la caution pour faire libérer son cousin. Mais toutes les économies de Terry sont injustement saisies par la police locale dirigée par le chef corrompu, Sandy Burnne. Terry va cependant pouvoir compter sur l'aide de la greffière Summer McBride. Ils vont mettre à jour une vaste conspiration généralisée au sein de Shelby Springs. Terry va tout tenter pour récupérer l'argent de la caution.",
-        trailer: "https://youtu.be/gF3gZicntIw?si=Vx6S7wuNd8jAUbO5"
+        trailer: "https://www.youtube.com/embed/gF3gZicntIw?si=4Xun3h8Qa4QNWmpH",
+        id:2
     },
     {
 
@@ -22,7 +24,8 @@ const Movies = [
         rating: 3.5,
         actors: ["Mason Thames", "Isabella Ferreira"],
         describe: "Four new students face the terrors of adolescence at their very first high school party.",
-        trailer: "https://youtu.be/elA7XuEUxOo?si=jhom_bjnFc8kC3rE"
+        trailer: "https://www.youtube.com/embed/elA7XuEUxOo?si=MpayAqM6IPHq-PWQ",
+        id:3
     }
 ]
 export default Movies
